@@ -1,0 +1,13 @@
+﻿*) Rotate point counterclockwise c->cos  s->sin
+	px = cx - sy;
+	py = sx + cy;
+
+*) Rotate point clockwise c->cos  s->sin
+	px = cx + sy;
+	py = -sx + cy;
+
+*) Rotate line (ax+by+c'=0) counterclockwise c->cos  s->sin
+	(ac - bs)x + (bc + as)y + c' = 0;
+
+*) Rotate line (ax+by+c'=0) clockwise c->cos  s->sin
+	(ac + bs)x + (bc - as)y + c' = 0;

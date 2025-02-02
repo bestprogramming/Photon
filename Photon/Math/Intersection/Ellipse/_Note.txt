@@ -1,0 +1,18 @@
+﻿*)
+            if (swap)
+            {
+                (a1, c1, d1, e1, a2, c2) = (c1, a1, e1, d1, c2, a2);
+            }
+
+            if (swap)
+            {
+                (ea1, eb1, ex2, ey2, ea2, eb2) = (eb1, ea1, ey2, ex2, eb2, ea2);
+            }
+
+            if (swap)
+            {
+                (x1, y1, x2, y2, x3, y3, x4, y4) = (y1, x1, y2, x2, y3, x3, y4, x4);
+            }
+
+*) Durumlar
+    -Merkezi 0, 0 da olan diklik

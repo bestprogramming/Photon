@@ -1,0 +1,29 @@
+﻿*)y'=-b^2x/(a^2*y)
+*)x^2 / a^2 + y^2 / b^2 = 1
+	x -> x - m		y -> y - n
+	x -> c(x - m) + s(y - n)
+	y -> -s(x - m) + c(y - n)
+
+	b^2 * (c(x - m) + s(y - n))^2 + a^2 * (-s(x - m) + c(y - n))^2 - a^2 * b^2 = 0
+
+	a1 = a^2 * s^2 + b^2 * c^2
+	b1 = 2 * b^2 * c * s - 2 * a^2 * c * s
+	c1 = a^2 * c^2 + b^2 * s^2
+	d1 = -2 * a^2 * s^2 * m - 2 * b^2 * c^2 * m + 2 * a^2 * c * n * s - 2 * b^2 * c * n * s
+	e1 = -2 * a^2 * c^2 * n - 2 * b^2 * s^2 * n + 2 * a^2 * c * m * s - 2 * b^2 * c * m * s
+	f1 = a^2 * c^2 * n^2 + a^2 * m^2 * s^2 + b^2 * c^2 * m^2 + b^2 * n^2 * s^2 + 2 * b^2 * c * m * n * s - 2 * a^2 * c * m * n * s - a^2 * b^2
+
+	A * x^2 + B * x * y + C * y^2 + D * x + E * y + F = 0
+
+*) wiki - (x, y, a, b, rotate)
+s->sin(rotate);
+c->cos(rotate);
+
+AX^2 + BXY + CY^2 + DX + EY + F = 0
+A = a^2 * s^2 + b^2 + c^2;
+B = 2 * (b^2 - a^2) * c * s;
+C = a^2 * c^2 + b^2 * s^2;
+D = -2 * A * x - B * y;
+E = -B * x - 2 * C * y;
+F = A * x^2 + B * x * y + C * y^2 - a^2 * b^2;
+

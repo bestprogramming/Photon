@@ -1,0 +1,10 @@
+﻿*) https://www.regular-expressions.info/lookaround.html
+*) Negative lookahead: Big (?!DontFind)
+*) Positive lookahead: Big (?=Find)
+*) Negative lookbehind (?<!DontFind)Big
+*) Positive lookbehind (?<=Find)Big
+
+*)in keyword
+	find: (?<!\= |new|if |Equals|CompareTo)([,\(]\s*)(Big|Circle3|Circle3Projection|Point3|Sphere|Vector3|Circle|Ellipse|Line|Point|Rectangle|Segment|Vector)(?!\.)
+	replace: $1in $2
+
