@@ -16,4 +16,4 @@ https://www.youtube.com/watch?v=ZoJgFltE11U<br>
 
 ## Categories
 - **Big numbers**: Contains basic mathematical operations with large numbers.
-- - **Physics simulation**: As a result, render is performed with OpenGL.
+- **Physics simulation**: As a result, render is performed with OpenGL.
