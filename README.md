@@ -11,6 +11,9 @@ Let the waves be spherical shells growing with square radius.
 Let's render the intersections of these spherical shells with a screen (sphere-plane) and the intersections of these spheres with each other (sphere-sphere).
 Let's compare these renders we finally got with the expected diffraction grating.
 
-https://www.youtube.com/watch?v=GXwQ95i53zE
-https://www.youtube.com/watch?v=ZoJgFltE11U
+https://www.youtube.com/watch?v=GXwQ95i53zE<br>
+https://www.youtube.com/watch?v=ZoJgFltE11U<br>
 
+## Categories
+- **Big numbers**: Contains basic mathematical operations with large numbers.
+- - **Physics simulation**: As a result, render is performed with OpenGL.
